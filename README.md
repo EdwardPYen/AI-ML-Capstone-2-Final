@@ -26,3 +26,49 @@ Author: Edward Yen
 
 ## Installation
 1. Clone the repository:
+git clone https://github.com/yourusername/ecommerce-review-analysis-capstone.git
+cd ecommerce-review-analysis-capstone
+text2. Install dependencies:
+pip install -r requirements.txt
+text3. Run the Jupyter Notebook:
+jupyter notebook "AI&ML Capstone 2 Final.ipynb"
+text4. Launch the Gradio app:
+python gradio_app.py
+textAccess at http://localhost:7860
+
+## Usage
+### Running the Notebook
+- Load your dataset (e.g., `amazon_reviews.csv` in `/data`).
+- Execute cells sequentially for preprocessing, modeling, and evaluation.
+- Models are saved in `/models`; figures in `/figures`.
+
+### Gradio App
+- Input multiple reviews separated by `|`.
+- Choose method: Extractive, Abstractive, or Hybrid.
+- Adjust sentences for extractive summary.
+- Get instant Markdown-formatted summary with sentiment insights.
+
+Example Input:  
+`Good product, fast charging | Sturdy cable, great value | Slow sometimes but decent`
+
+## Project Structure
+- `AI&ML Capstone 2 Final.ipynb`: Main notebook with all code.
+- `gradio_app.py`: Standalone script for the summarization app.
+- `data/`: Store datasets here.
+- `models/`: Saved ML/DL models.
+- `figures/`: EDA visualizations.
+
+## Dependencies
+See `requirements.txt` for full list. Key libraries:
+- pandas, numpy, matplotlib, seaborn
+- scikit-learn, tensorflow, keras
+- nltk, vaderSentiment, gradio
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Built as part of AI/ML Capstone 2.
+- Uses Amazon product review dataset (not included; add your own).
+
+For issues, open a GitHub Issue or contact edward.yen@example.com.
