@@ -32,7 +32,7 @@ cd ecommerce-review-analysis-capstone
 2.Install dependencies:
 pip install -r requirements.txt
 
-3.. Run the Jupyter Notebook:
+3. Run the Jupyter Notebook:
 jupyter notebook "AI&ML Capstone 2 Final.ipynb"
 
 4. Launch the Gradio app:
