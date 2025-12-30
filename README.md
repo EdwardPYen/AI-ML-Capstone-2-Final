@@ -24,18 +24,19 @@ Author: Edward Yen
 - **Summarization**: TF-IDF extractive, template-based abstractive, and hybrid methods.
 - **Deployment**: Gradio app for real-time review summarization.
 
-## Installation
+
+##Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/ecommerce-review-analysis-capstone.git
+git clone https://github.com/EdwardPYen/ecommerce-review-analysis-capstone.git
 cd ecommerce-review-analysis-capstone
 
-2. Install dependencies:
-pip install -r requirements.txt
+2. Install Dependencies:
+jupyter notebook "AI&ML Capstone 2 Final.ipynb"
 
 3. Run the Jupyter Notebook:
 jupyter notebook "AI&ML Capstone 2 Final.ipynb"
 
-4. Launch the Gradio app:
+4. Launch the Gradio App:
 python gradio_app.py
 textAccess at http://localhost:7860
 
