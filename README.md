@@ -29,7 +29,7 @@ Author: Edward Yen
 git clone https://github.com/yourusername/ecommerce-review-analysis-capstone.git
 cd ecommerce-review-analysis-capstone
 
-2.Install dependencies:
+2. Install dependencies:
 pip install -r requirements.txt
 
 3. Run the Jupyter Notebook:
