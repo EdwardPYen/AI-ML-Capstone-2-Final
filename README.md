@@ -71,4 +71,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built as part of AI/ML Capstone 2.
 - Uses Amazon product review dataset (not included; add your own).
 
-For issues, open a GitHub Issue or contact edward.yen@example.com.
+For issues, open a GitHub Issue or contact edwardpyen9@gmail.com
