@@ -28,11 +28,14 @@ Author: Edward Yen
 1. Clone the repository:
 git clone https://github.com/yourusername/ecommerce-review-analysis-capstone.git
 cd ecommerce-review-analysis-capstone
-text2. Install dependencies:
+
+2.Install dependencies:
 pip install -r requirements.txt
-text3. Run the Jupyter Notebook:
+
+3.. Run the Jupyter Notebook:
 jupyter notebook "AI&ML Capstone 2 Final.ipynb"
-text4. Launch the Gradio app:
+
+4. Launch the Gradio app:
 python gradio_app.py
 textAccess at http://localhost:7860
 
